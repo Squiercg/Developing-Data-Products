@@ -1,0 +1,6 @@
+library(devtools)
+install_github("rstudio/shinyapps")
+library(shinyapps)
+deployApp()
+deployApp(appDir="/home/squiercg/git/Developing-Data-Products",appName="Squiercg")
+getwd()
